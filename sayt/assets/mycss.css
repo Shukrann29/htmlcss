@@ -26,5 +26,37 @@ ul{
     gap: 20px;
 }
 li{
-    font-size: 20px;
+    font-weight: 900;
+}
+.title{
+    display: flex;
+    background-color: darkgrey;
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.p1{
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.span{
+    color: rgb(8, 0, 255);
+}
+.p2{
+    color: black;
+    font-size: 18px;
+}
+.buton{
+    background-color: darkorange;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+.buton:hover{
+    background-color: rgb(207, 249, 0);
+    margin-bottom: 10px;
 }
