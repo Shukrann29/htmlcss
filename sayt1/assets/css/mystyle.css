@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    padding: 30px;
+}
+.cardsection{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;     
+}
+.card{
+    background-color: rgba(57, 56, 56, 0.385);
+    color: white;
+    margin: 30px;
+    height: 50vh;
+    width: 350px;
+}
+.tittle{
+    font-size: 30px;
+    margin: 30px 30px 30px 50px;
+    color: white;
+}
+.h2{
+    font-size:20px ;
+    margin: 30px;
+    padding: 5%;
+    color: darkorange;
+}
+.bio{
+    margin: 50px;
+    color: rgba(255, 255, 255, 0.711);
+}
+.detal{
+    color: white;
+    margin: 50px 40px 50px 50px;
+}
+.detal:hover{
+    color: darkorange;
+    font-size: 17px;
+}
+.card:hover{
+    border-style: groove;
+    border-color: darkorange;
+     background-color: rgba(57, 56, 56, 0.385);
+    width: 353px;
+}
